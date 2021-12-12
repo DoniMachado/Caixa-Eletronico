@@ -36,7 +36,7 @@ namespace Desafio_CaixaEletronico
                  MessageBox.Show("Não foi selecionado nenhuma opção de operação",
                 "Selecione uma opção de operação", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            else
+            else //Se selecionou uma das opções
             {
                 if (rbDeposito.Checked) //Operação de deposito
                 {
